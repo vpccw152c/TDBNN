@@ -1,2 +1,3 @@
 # test
-this is a test
+This is an implement of Triplet architecture based on Dynamic Bayesian Neural Network (TDBNN), a framework proposed in the paper "Learning Fine-grained Patient Similarity with Dynamic Bayesian Network Embedded Recurrent Neural Network".
+As we can see from the title of the paper, TDBNN aims at learning fine-grained patient similarity based on Triplet architecture, DBN, and RNN making use of Electronic Healthcare Records (EHR) datasets. TDBNN firstly derives DBN from medical indicators to capture the causal correlations among different indicators in the form of conditional depedencies, then to overcome the constrain of conditional indenpence assumption and trainsmit the causal correlations as temporal features, and also to learn long-term memories contained in EHRs, the conditional dependencies in DBN are further employed to construct specially designed connections between GRU units in two adjacent time stamps in the RNN, 
